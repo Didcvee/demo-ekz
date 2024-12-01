@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="ru.didcvee.demo1.controllers.LoginController">
+    <Label text="Вход в систему" />
+    <TextField fx:id="usernameField" promptText="Логин" />
+    <PasswordField fx:id="passwordField" promptText="Пароль" />
+    <Button text="Войти" onAction="#onLoginButtonClick" />
+    <Label fx:id="errorLabel" textFill="red" />
+</VBox>
